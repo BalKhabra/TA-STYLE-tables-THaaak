@@ -1,0 +1,367 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+    line-height: 1;
+    background-color: rgb(255, 255, 255);
+    font-family: "Karla", sans-serif;
+}
+/* Custom styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* GENERAL */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* HEADER */
+.background-img {
+    background-image: url(../hero.png);
+    width: 100%;
+    height: 680px;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 10px 200px 10px 200px;
+}
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.logo-color {
+    color: #ED563A;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    margin: 20px;
+}
+.nav-bar a:hover {
+    color: #ED563A;
+}
+.signup-btn {
+    width: 70px;
+    padding: 10px;
+    background-color: #ED563A;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+}
+/* Program */
+.container-program {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.program-header {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 100px 0px 20px 0px;
+}
+.program-color {
+    color: #ED563A;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-align {
+    text-align: center;
+}
+.program-icon {
+   padding-bottom: 10px;
+}
+.program-p, .program-para, .cta-para, .weight-p, .schedule-para, .trainer-p  {
+    color: #a9adaf;
+    line-height: 1.5;
+    font-size: 13px;
+}
+.program-para {
+    margin-bottom: 80px;
+}
+.fitness-icon {
+    width: 77px;
+    height: 77px;
+    line-height: 1.5;
+}
+.discover {
+    font-size: 14px;
+    color: #ED563A;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.fitness-header {
+    color: rgb(94, 91, 91);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.fitness-spacing {
+    margin-bottom: 30px;
+}
+/* CTA */
+.cta-background {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    background-image: url(../cta-bg.jpg);
+    height: 300px;
+}
+.cta-red {
+    color: #ED563A;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cta-header {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.btn-member {
+    width: 90px;
+    padding: 12px;
+    background-color: #ED563A;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.cta-para {
+    margin-bottom: 25px;
+}
+/* CLASSES */
+.class-box {
+    width: 320px;
+    height: 80px;
+    color: #676E75;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.144);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.btn-schedule {
+    background-color: #ED563A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 320px;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 70px;
+}
+.weights-img {
+    width: 525px;
+    height: 225px;
+    border-radius: 3px;
+}
+.weights-heading {
+    color: #676E75;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.weight-p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.class-spacing {
+    margin: 10px 150px 30px 150px;
+}
+.weights-aside {
+    margin-bottom: 100px;
+}
+.schedule-img {
+    background-image: url(../schedule-bg.jpg);
+    width: 100%;
+    padding: 50px;
+}
+.schedule-para {
+    margin-bottom: 40px;
+}
+.schedule-days {
+    color: #a9adaf;
+    font-size: 15px;
+}
+/* TABLE */
+table {
+    border: 1px solid;
+    color: #a9adaf;
+    margin-top: 30px;
+    margin-left: 240px;
+}
+td {
+    border: 1px solid;
+    width: 190px;
+    padding: 40px;
+    color: #a9adaf;
+    font-size: 10px;
+}
+/* TRAINERS */
+.trainers-box {
+    width: 260px;
+    height: 395px;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.144);
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.trainers {
+    width: 200px;
+    height: 150px;
+}
+.sm-icons a{
+    text-decoration: none;
+    color: #646668;
+    margin: 5px;
+}
+.trainer-p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.footer {
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    font-size: 10px;
+    color: #a9adaf;
+}
+.red-footer {
+    color:#ED563A;
+}
